@@ -1,0 +1,24 @@
+﻿{
+  "my-mysql": {
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "user": "readonly",
+    "password": "your_password_here",
+    "database": "test_db"
+  },
+  "my-oracle": {
+    "type": "oracle",
+    "user": "readonly",
+    "password": "your_password_here",
+    "dsn": "localhost:1521/ORCL"
+  },
+  "my-pg": {
+    "type": "postgresql",
+    "host": "localhost",
+    "port": 5432,
+    "user": "readonly",
+    "password": "your_password_here",
+    "database": "test_db"
+  }
+}
